@@ -74,18 +74,18 @@ If you want to follow along with a video instead showing how to install, you can
 
 
 
-6) Back on the canvas, double click on "Freshservice - Update Ticket" Step that is attached to the "Acknowledge response option. You will need to modify the Agent Email Input to match with the Freshservice Agent. Typically the work email is attached to the Agent in Freshservice. The example used here is the "respondedTo.by.targetName" which is the "Username" in xMatters which is typically first initial with last name (i.e. bsmith for Bob Smith). If your username in xMatters is not the same as the beginning of your work email in Freshservice, please change it in your xMatters profile (please reference screenshots for this). If they match, then just type your domain of your email where it says "@domain.com".
+6) **NOTE** There is a step back on the canvas, double click on "Freshservice - Update Ticket" Step that is attached to the "Acknowledge response option. In this step, it is leveraging the "Work Email" device in the xMatters user's profile. This email needs to also exist with a Freshservice user in order to update the incident correctly. If this is the case, there is nothing to do here.
 
 
 
 <kbd>
-  <img src="media/Update Freshservice Step FD.png" width="500">
+  <img src="media/Update Freshservice Incident Step FD.png" width="500">
 </kbd>
 
 
 
 <kbd>
-  <img src="media/Agent Email Update Step.png" width="900">
+  <img src="media/Agent Email Update Incident Step.png" width="900">
 </kbd>
 
 
